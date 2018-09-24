@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Post detail</title>
+</head>
+<body>
+    <h3>Post detail</h3>
+    <div>{{ post.title }}</div>
+    <div>{{ post.author }}</div>
+    <div>{{ post.content }}</div>
+    <br>
+    <button>
+        <a href="/delete/{{ post.id }}">Delete post</a>
+    </button>
+    <br>
+    <button>
+        <a href="/update/{{ post.id }}">Update post</a>
+    </button>
+    <br>
+    <button>
+        <a href="/posts">Return to list</a>
+    </button>
+</body>
+</html>

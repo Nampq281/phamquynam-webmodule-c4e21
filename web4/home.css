@@ -1,0 +1,92 @@
+h4 {
+    color: brown; 
+}
+
+h5 {
+    color: darkolivegreen;
+}
+
+#last_title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    
+}
+
+.bg-blue {
+    background-color:powderblue;
+}
+
+.text-decor {
+    text-decoration: underline;
+}
+
+#image {
+    width: 200px;
+    height: 300px;
+    object-fit: fill; 
+}
+
+#container {
+    background-image: url(https://www.toplist.pk/assets/images/cover/1493895253.png);
+    height:500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-red {
+    background-color: #b81313fb;
+}
+.bg-green {
+    background-color: #0b6b0b;
+}
+.text-white {
+    color: #ffffff;
+}
+
+body, html {
+    height: 100%
+}
+
+.h {
+    height:200px;
+}
+.w {
+    width:400px;
+}
+
+.h-10{
+    height:10%;
+}
+.w-50{
+    width:50%;
+}
+
+.mb-10p{
+    margin-bottom: 10px;
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right:10px; */
+}
+.m-20p{
+    margin: 20px;
+}
+.m-c{
+    margin: 10px 5px 20px 7px
+    /* thứ tự chiều kim đồng hồ */
+}
+
+.pt-16p{
+    padding-top:16px;
+}
+.pl-8p{
+    padding-left:8px;
+}
+
+.b-c{
+    /* border-color: #cccccc;
+    border-width: 5px;
+    border-style: solid; */
+    border: 5px #cccccc solid;
+    border-radius: 20px;
+}
